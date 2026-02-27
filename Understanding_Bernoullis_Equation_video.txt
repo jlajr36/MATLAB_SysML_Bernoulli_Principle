@@ -1,0 +1,146 @@
+Intro
+Thanks to CuriosityStream for sponsoring  this video. Watch thousands of documentaries  
+and get access to Nebula for free, when you  sign up using the link in the description.  
+Bernoulli's equation is a simple but incredibly  important equation in physics and engineering  
+that can help us understand a lot about the flow  of fluids in the world around us. It essentially  
+Bernoullis Equation
+describes the relationship between the pressure,  velocity and elevation of a flowing fluid.  
+It has countless applications. We can use  it to explain how planes generate lift,  
+or to calculate how fast liquid will  drain from a container, for example.  
+We'll explore these applications and a  few more later on, but let's start by  
+reviewing the equation itself. It was first published by the Swiss  
+physicist Daniel Bernoulli in  1738, and it looks like this.  
+The equation states that the sum of these three  terms remains constant along a streamline.  
+Each of the terms is a pressure. The first term is the static pressure,  
+which is just the pressure P of the fluid. Then we have the dynamic pressure  
+which is a function of the fluid density  Rho and velocity V, and represents the  
+fluid kinetic energy per unit volume. And the last term is the hydrostatic pressure,  
+which is the pressure exerted by the fluid due  to gravity. G is gravitational acceleration  
+and H is the elevation of the fluid, which is  just its height above a reference level.  
+This is the pressure form of the equation,  but it can also be presented in the head form,  
+and the energy form. We can think of Bernoulli's  
+equation as a statement of the conservation  of energy. It says that along a streamline  
+the sum of the pressure energy, kinetic energy  and potential energy remains constant. This is  
+really valuable information that can help us  analyse a whole range of fluid flow problems.  
+The equation does have a few limitations,  which I'll cover later on in the video,  
+but for now the important thing to note is  that it can only be applied along a streamline.  
+Example
+We can define a streamline in steady flow as the  path traced by a single particle within the fluid.  
+Or more technically as a curve that at all points  is tangent to the particle velocity vector.  
+Let's look at an example where  we apply Bernoulli's equation  
+to flow through a pipe which has a change in  diameter. We want to use the equation to see  
+how the pressure changes as the flow passes  from the larger to the smaller diameter.  
+Bernoulli's equation is usually used to  compare the flow at two different locations,  
+so we can rewrite it like this, with points  1 and 2 both being on the same streamline.  
+There’s no significant change in  elevation between Points 1 and 2,  
+so the potential energy terms cancel each  other out. And if we put all of the static  
+pressure terms on one side we get this  equation for the change in pressure.  
+If we assume that the fluid is incompressible,  the mass flow rate at points 1 and 2  
+must be equal. This gives us what’s called the  continuity equation, which is just a statement  
+of the conservation of mass. Mass flow rate  is equal to the product of the fluid density,  
+the pipe cross-sectional  area and the fluid velocity.  
+So we can re-arrange the continuity equation to  obtain an equation for the velocity at point 2.  
+The cross-sectional area A2 is smaller than  A1, which means that the velocity of the  
+flow increases as it passes into the smaller  diameter pipe. This is quite intuitive.  
+By substituting this equation for V2 into  Bernoulli's equation, we can see that since the  
+velocity increases between Points 1 and 2, the  pressure between both points must decrease.  
+Bernos Principle
+This concept, that for horizontal flow an  increase in fluid velocity must be accompanied  
+by a decrease in pressure, is one way of  formulating what we call Bernoulli's Principle.  
+It can seem counter-intuitive,  because people often expect an  
+increase in velocity to result in a  corresponding increase in pressure.  
+But it makes sense if we think about the  conservation of energy. The energy required  
+to increase the fluid velocity comes at the  expense of the static pressure energy.  
+Bernoulli’s Principle shows up  in a lot of different places.  
+We can use it to help explain how plane  wings generate lift. Fluid flowing over  
+an airfoil travels faster  than fluid flowing below it.  
+According to Bernoulli's Principle this creates  an area of low pressure above the airfoil and  
+an area of high pressure below it, and it’s  this pressure difference that generates lift.  
+I'll cover lift and drag forces in  more detail in a separate video.  
+Bernoulli's Principle also explains  how Bunsen burners work.  
+When the gas valve is opened, gas flows into the  barrel at high velocity. Following Bernoulli’s  
+Principle, this high velocity creates an area  of low pressure in the barrel, which draws  
+air in through the air regulator, allowing  for more complete combustion of the gas.  
+Pitostatic Tube
+Several different flow measurement  devices rely on Bernoulli’s equation  
+to determine the velocity of a flowing fluid. The Pitot-static tube is one such device.  
+It’s often used in aircraft to measure  airspeed. Here’s how it works.  
+If we place a tube into a flowing fluid,  like this, and we attach a pressure meter  
+to the end of it, the meter will measure  the pressure at the end of the tube.  
+At this point the fluid velocity is reduced  to zero, so it’s called the stagnation point,  
+and the pressure measured by the meter  is called the stagnation pressure.  
+We can apply Bernoulli’s equation between  an upstream point and the stagnation point,  
+and show that the stagnation pressure is  equal to the sum of the static pressure  
+and the dynamic pressure terms. All of the  kinetic energy is essentially being converted  
+into pressure energy at the stagnation point. If we add an outer tube which is sealed at the end  
+but has holes further downstream, the outer tube  will measure the static pressure of the fluid,  
+instead of the stagnation pressure. These two pressure measurements give  
+us all of the information we need to  determine the velocity of the flow.  
+Venturi Meter
+Another flow measurement device  that uses Bernoulli’s equation  
+is the Venturi meter, which is an instrument  used to determine the flowrate through a pipe.  
+It works by measuring the pressure drop  across a converging section of the pipe.  
+Say we want to determine the flow rate Q,  which is the velocity multiplied by the  
+pipe cross-sectional area at Point 1. We can  easily rearrange the pressure drop equation  
+we derived earlier when we looked at a change  in diameter, to get this equation for flowrate.  
+All we need to know is the  dimensions of the Venturi meter,  
+the fluid density and the pressures P1 and P2,  and that allows us to calculate the flowrate.  
+The Venturi meter has no moving parts  and is a very simple and reliable way  
+of measuring the flowrate through a pipe.  The diverging section is longer than the  
+converging section to reduce the likelihood of  flow separation and keep energy losses low.  
+Beer Keg
+Let's look at one more example where  we can apply Bernoulli's equation.  
+Say we have a beer keg, and we want to  calculate how fast will drain when we  
+first open the tap at the bottom.  All we need to do is define our two  
+points along a streamline and  apply Bernoulli's equation.  
+It’s a gravity-fed keg with a vent at the top,  meaning that it’s not pressurised. The pressure  
+at both points will be atmospheric, and so the  static pressure terms cancel each other out.  
+We can also assume that the keg  is large enough that the fluid  
+velocity at Point 1 is close to zero. If we rearrange Bernoulli’s equation,  
+and define the height between  the beer level and the tap as H,  
+we get this equation for the  beer velocity out of the tap.  
+Those were a few examples of cases where we  can apply Bernoulli's equation to get some  
+valuable information or to solve a problem. But to use it correctly, it’s important to have an  
+Limitations
+understanding of the limitations of the equation,  which arise because of how it’s derived.  
+There are several different ways  Bernoulli’s equation can be derived.  
+It can be derived based on conservation of  energy, by considering that the work done  
+on the fluid increases its kinetic energy. Or it can be derived by applying Newton's second  
+law, which involves determining the forces acting  on a fluid particle and applying F equals M*A.  
+Although I won't cover either derivation  here, they do both make some assumptions  
+that we need to be aware of, since they  limit how we can apply the equation.  
+Firstly the derivation of Bernoulli’s equation  
+assumes that flow is laminar and that it is  steady, meaning that it doesn't vary with time.  
+Next, it assumes that the flow is inviscid,  meaning that shear forces due to fluid  
+viscosity are negligible. This assumption  is needed because viscosity would result  
+in a dissipation of some of the fluid’s internal  energy, and so the idea that energy is conserved  
+along a streamline would no longer apply. And finally the derivation of Bernoulli's  
+equation assumes that the fluid behaves as if it’s  incompressible. This is usually valid for liquids,  
+but might not be for gases at high velocities. All three of these assumptions need to be valid if  
+you want to apply Bernoulli's equation. Adapted versions of the equation which can  
+be applied to unsteady and compressible flows do  exist, although they’re a bit more complicated.  
+Conclusion
+Being able to recognise when Bernoulli’s  Principle is at play, or when Bernoulli’s  
+equation can be applied to solve a problem,  is a powerful tool in any engineer's arsenal.  
+If you'd like to see a few more real world  examples of Bernoulli’s principle in action,  
+you can check out the extended  version of this video on Nebula.  
+Nebula is a video streaming service, built  entirely by educational creators like myself.  
+It’s home to some of the best creators  out there, including Real Engineering,  
+Practical Engineering, and City Beautiful, so  you can watch content from them and many others  
+on Nebula, completely ad free. All of my videos are on Nebula,  
+without any ads, and in the version  of this video on Nebula, I've replaced  
+this sponsorship message with a few more really  interesting examples of Bernoulli's principle.  
+Then there’s the growing catalogue of exclusive  Nebula Originals that you won’t be able to watch  
+anywhere else, like Mustard’s fascinating look  at Imperial Japan’s Underwater Aircraft Carriers,  
+or the Logistics of D Day series. And best of all, you can get access to Nebula  
+for free when you sign up to CuriosityStream  using the link in the description.  
+CuriosityStream is the streaming  service for high quality documentaries.  
+It has a catalogue of thousands of incredible  titles, covering engineering, science, history  
+and more. So whether you want to learn about the  pioneers of aviation and colonisation of the moon,  
+or discover the secrets of the deep ocean  with narration by David Attenborough,  
+CuriosityStream is the place to do it. If you sign up to CuriosityStream using this link  
+and the promo code "efficientengineer", you’ll get  a 26% discount on the annual plan, AND you'll  
+get Nebula for free. All for just $14.79. So to take advantage of this incredible deal,  
+head over to curioitystream.com/efficientengineer,  or click on the link in the description, and use  
+the code "efficientengineer".You'll be supporting not only  this channel, but a load of other creators in the  
+educational community as well! Thanks for watching!

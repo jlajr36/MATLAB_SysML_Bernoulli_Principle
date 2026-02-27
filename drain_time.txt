@@ -1,0 +1,52 @@
+Bernoulli's Water Tank | How Long Will It Take to Drain?
+
+0:011 second[Music]
+0:044 secondsall right welcome back to integral physics in the previous video i worked out the discharge velocity of fluid from this reservoir as a function of the fluid
+0:1212 secondsheight within the tank in this video we're going to calculate the time it will take for the entire tank to drain now the difficult part of this problem
+0:2020 secondsis that as the tank starts to drain the fluid height is going to decrease which in turn is going to cause the fluid velocity and therefore the rate at which the tank
+0:2828 secondsdrains to also decrease you can see that here if the height of the fluid within the tank decreases the discharge is going to decrease and
+0:3838 secondswhat this means is that each liter of fluid which comes out of this discharge hole is going to take longer than the leader before it
+0:4646 secondsso with that in mind let's start working out our solution here at the discharge see if fluid is exiting the discharge at
+0:5555 secondssome velocity v then in some time we'll call it t a column of fluid is going to exit the discharge
+1:021 minute, 2 secondswhich has a length equal to v t
+1:051 minute, 5 seconds[Music]
+1:071 minute, 7 secondswhere v is the discharge velocity and t is some hypothetical amount of time which means the volume of fluid that flows out of the discharge in some time
+1:161 minute, 16 secondst will be given by the cross-sectional area of the discharge multiplied by v
+1:231 minute, 23 secondsdt as the discharge velocity multiplied by time but remember as fluid exits the reservoir the fluid level
+1:311 minute, 31 secondsand therefore the discharge velocity is going to change so this equation is really only true for an infinitely small amount of time
+1:391 minute, 39 secondsso what we're going to do is use calculus to express this equation over an infinitely small amount of time so rather than having some
+1:461 minute, 46 secondslarge volume of fluid come out of this discharge we're going to talk about an infinitely small amount of fluid which comes out of the discharge
+1:541 minute, 54 secondswe'll call it d volume or an infinitely small change in volume now our cross-sectional area and the
+2:022 minutes, 2 secondsvelocity at the discharge are constants at least in an instant but it's this time which we're going to make infinitely short so i'm going to call
+2:112 minutes, 11 secondsthis dt just like we would in calculus an infinitely small change in time and substituting in our value for the
+2:182 minutes, 18 secondsvelocity at the discharge this term which relates the volume of fluid which is going to exit the
+2:252 minutes, 25 secondsdischarge in any given instant as a function of the cross-sectional area of the discharge and the height of the fluid within the
+2:342 minutes, 34 secondsreservoir but remember we're trying to find the time to drain the tank which means we need to relate the volume of fluid discharged
+2:422 minutes, 42 secondsto the change in fluid height within the reservoir so looking at the surface of the reservoir if we allow an infinitely
+2:492 minutes, 49 secondssmall fluid out through the discharge then that same change in volume is going to have to occur at the surface of the reservoir which
+2:592 minutes, 59 secondsmeans change in volume is going to be equal to the cross-sectional area of a reservoir
+3:063 minutes, 6 secondsmultiplied by the change in height within a reservoir which we're going to call not h the total height
+3:133 minutes, 13 secondsbut dh the infinitely small change in height
+3:213 minutes, 21 secondsof the fluid level which will occur in any given instant so to solve this problem all we're going to do is set these two infinitesimal volumes
+3:293 minutes, 29 secondsequal to one another as we're setting this up there is one thing that i need to point out and that
+3:373 minutes, 37 secondsis this change in volume as the fluid level is going downward is going to actually be a negative value that is because we're losing height
+3:463 minutes, 46 secondsso to solve for the total time we're going to need to set up a differential equation that relates the total change in time to the total change in height
+3:543 minutes, 54 secondsso to do that we're going to separate out our variables in this case i'm actually going to take all of our variables over here on the left
+4:004 minutesand pull them over here and on the left we're integrating all of our times that is the total time
+4:084 minutes, 8 secondsfrom 0 to t where t is the total time it takes to drain this entire tank and over here we're going to look at the
+4:154 minutes, 15 secondstotal change in height or we're going to integrate all of these infinitesimally small changes in height from some initial height h to some final
+4:254 minutes, 25 secondsheight 0. now you'll notice these limits of integration can be flipped if we simply remove this negative that occurred here when we talked about
+4:334 minutes, 33 secondsthe decrease in height of our surface now you do the calculus behind this however you want what i'm going to do to solve this
+4:404 minutes, 40 secondsis a u-substitution
+
+Broken
+Patrick Patrikios • Broken
+4:424 minutes, 42 seconds[Music]
+4:524 minutes, 52 seconds[Music]
+4:544 minutes, 54 secondsand we're left with this an expression for the time to drain the entire tank now unsurprisingly the larger the reservoir
+5:025 minutes, 2 secondsthe longer it will take to drain and the smaller the discharge hole the longer it will take to drain what's not obvious however
+5:095 minutes, 9 secondsis that if we were to double the height of fluid within the tank it would not take twice as long to drain the tank and that's because remember
+5:175 minutes, 17 secondsthe deeper the fluid in the tank the faster the fluid will drain which means doubling the fluid depth increases
+5:255 minutes, 25 secondsbut does not double the total drain time
+5:295 minutes, 29 secondsand on that note that's all for now
+5:395 minutes, 39 secondsyou
