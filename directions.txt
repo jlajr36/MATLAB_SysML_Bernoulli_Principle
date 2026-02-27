@@ -1,0 +1,11 @@
+To get you set up for a more involved dynamic simulation related to the water distribution project, this assignment asks that you design a MATLAB-SysML model that supports some performance analysis. The water distribution system will be equipped with sensors that determine when to turn the pump on and off. 
+
+As noted in the project description on page 10:
+
+The process control engineering team has decided to implement a “deadband” control strategy. The pump will turn on when the level in the tower reaches Low Level, run at a constant speed, and turn off when the level in the tower reaches High Level. In addition, there is a designated Low Low Level that will trigger the fault condition.
+
+If we assume there is a single pipe that carries water from the tank to the distribution network, we need to know estimates of time taken for a full tank to empty or reach the low level from its high level. This understanding allows you to determine when the system should get sensor readings (i.e set sensor sampling rate) and make the decision to activate or stop the pump.  The model for calculating the time taken for water to drain from a tank of a given height is determined using Bernoulli's principle. 
+
+We give you a few youtube videos and online material that describe this principle.  
+
+This assignment objective is create a Matlab script that takes in related parameter values (such as tank height, high and low level thresholds, exit pipe dimensions etc.) specified in your SysML model and calculate the time taken for water to reach the given thresholds. Based on this, develop behavior diagrams, such as a state-machine diagram, that take in sensor readings at appropriate times and turns a pump (hypothetical for now) on and off when the thresholds are reached. These videos focus on the rate at which water drains from the tank. Focus on this aspect first - not the time taken to fill the tank which will depend on the pump rate and other factors that will be the subject of future assignments. 
