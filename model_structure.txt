@@ -1,5 +1,5 @@
 TankDrainTimeAnalysis
-├──Library
+└──Library
     └──FaultStatus
     └──PumpStatus
     └──Area
@@ -7,3 +7,28 @@ TankDrainTimeAnalysis
     └──Length
     └──Time
     └──Velocity
+└──Structure
+    └──WaterSystemMap
+    └──DrainPipe
+        └──a_pipe : TankDrainTimeAnalysis::Library::Area = 0.05
+            └──0.05
+        └──in
+    └──Pump
+        └──status : TankDrainTimeAnalysis::Library::PumpStatus
+        └──out
+    └──WaterSystem
+        └──WaterSystem
+        └──waterTank : TankDrainTimeAnalysis::Structure::WaterTank
+        └──drainPipe : TankDrainTimeAnalysis::Structure::DrainPipe
+        └──pump : TankDrainTimeAnalysis::Structure::Pump
+    └──WaterTank
+        └──A_tank : TankDrainTimeAnalysis::Library::Area = 2.0
+            └──2.0
+        └──h_high : TankDrainTimeAnalysis::Library::Length = 5.0
+            └──5.0
+        └──h_low : TankDrainTimeAnalysis::Library::Length = 1.0
+            └──1.0
+        └──h_lowlow : TankDrainTimeAnalysis::Library::Length = 0.5
+            └──0.5
+        └──in
+        └──out
