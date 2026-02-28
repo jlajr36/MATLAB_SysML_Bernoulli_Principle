@@ -1,11 +1,6 @@
 TankDrainTimeAnalysis
 └──Behavior
-    └──Pump_Behavior
-        └──Pump_Behavior
-            └──Fault h <= h_lowlow critical low level
-            └──Pump OFF h >= h_high pump idle
-            └──Pump ON h <= h_low pump running
-    └──Library
+└──Library
     └──FaultStatus
     └──PumpStatus
     └──Area
