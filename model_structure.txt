@@ -7,6 +7,16 @@ TankDrainTimeAnalysis
     └──Length
     └──Time
     └──Velocity
+└──Requirements
+    └──Requirements
+    └──Pump ON/OFF Thresholds
+    └──Fault Detection At Low-Low Level
+    └──Drain Time Calculation
+    └──Sensor Sampling Interval
+    └──Detects critically low water conditions to prevent...
+    └──Ensures that control logic receives timely data to...
+    └──Ensures the tank maintains safe operating levels, ...
+    └──Provides accurate timing for pump control and sens...
 └──Structure
     └──WaterSystemMap
     └──DrainPipe
