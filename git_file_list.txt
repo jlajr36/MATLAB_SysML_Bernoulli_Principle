@@ -1,0 +1,5 @@
+https://raw.githubusercontent.com/jlajr36/MATLAB_SysML_Bernoulli_Principle/refs/heads/main/notes_video_drain_time.txt
+https://raw.githubusercontent.com/jlajr36/MATLAB_SysML_Bernoulli_Principle/refs/heads/main/Understanding_Bernoullis_Equation_video.txt
+https://raw.githubusercontent.com/jlajr36/MATLAB_SysML_Bernoulli_Principle/refs/heads/main/directions.txt
+https://raw.githubusercontent.com/jlajr36/MATLAB_SysML_Bernoulli_Principle/refs/heads/main/tankDrainTime.m
+https://raw.githubusercontent.com/jlajr36/MATLAB_SysML_Bernoulli_Principle/refs/heads/main/model_structure.txt
